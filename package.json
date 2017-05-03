@@ -1,0 +1,26 @@
+{
+  "name": "rest-easy",
+  "version": "1.0.0",
+  "description": "A little task manager app with an API made using Node.js and MongoDB.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdhays/rest-easy.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mdhays/rest-easy/issues"
+  },
+  "homepage": "https://github.com/mdhays/rest-easy#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
