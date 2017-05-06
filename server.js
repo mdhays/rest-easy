@@ -12,9 +12,13 @@ mongoose.connect('mongodb://localhost/Tododb');
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
+app.set('view engine', 'pug');
+app.use(express.static('public'));
 
 const routes = require('./api/routes/todoListRoutes');
 routes(app);
+
+
 
 
 app.listen(port);
